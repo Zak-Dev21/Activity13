@@ -16,14 +16,14 @@ int main()
     cin >> num_list;
 
     
-
+    // loop will continuously add temperatures to sum variable in order to get full sum
     for (int i = num_list; i > 0; i--) {
         cout << "Enter temperature: ";
         cin >> temperature_given;
         sum += temperature_given;
     }
     
-    avg = sum / num_list;
+    avg = sum / num_list; // average mathematical formula used
 
     cout << "The average for the temperatures you entered is " << avg << endl;
     
