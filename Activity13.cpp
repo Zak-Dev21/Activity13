@@ -5,8 +5,9 @@ using namespace std;
 
 int main()
 {
+    // declaring variables needed to get user input and calculate the average
     int num_list;
-    double sum = 0.0;
+    double sum = 0.0; // initiate sum variable which will calculate sum of temperatures
     double temperature_given;
     double avg;
 
