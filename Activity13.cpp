@@ -11,6 +11,7 @@ int main()
     double temperature_given;
     double avg;
 
+    // Asking uder to set limit for how many temperatures to enter
     cout << "Enter enter the number of temperatures you plan to enter: " << endl;
     cin >> num_list;
 
